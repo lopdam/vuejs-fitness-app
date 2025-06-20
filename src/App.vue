@@ -10,12 +10,12 @@
 
 <template>
   <Layout> 
-    <!-- PAGE 1 -->
+
     <Welcome v-if="selectedDisplay == 1"/>
-    <!-- PAGE 2 -->
-    <Dashboard v-if="selectedDisplay == 2"/>
-    <!-- PAGE 3 -->
-    <Wrokout v-if="selectedDisplay == 3"/>
+
+    <!-- <Dashboard v-if="selectedDisplay == 2"/>
+
+    <Wrokout v-if="selectedDisplay == 3"/> -->
   </Layout>
 </template>
 
