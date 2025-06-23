@@ -1,4 +1,4 @@
-export const workoutProgram = {
+export const workoutProgram: Record<number, any> = {
     0: {  // Push
         warmup: [
             { name: "Around the worlds", sets: 2, reps: 25 },
