@@ -1,4 +1,10 @@
 <script setup>
+const props = defineProps({
+    handleDisplayChange: {
+        type: Function,
+        required: true
+    }
+});
 </script>
 
 <template>
@@ -21,7 +27,7 @@
             <h3>🔥 You Challenge</h3>
             <p>Complete all the workouts and track your progress along the way!</p>
             <p>Do you accept?</p>
-            <button>Begin &rarr;</button>
+            <button @click="()=>handleDisplayChange(display=2)">Begin &rarr;</button>
         </div>
     </section>
 </template>
